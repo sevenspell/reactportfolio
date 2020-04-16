@@ -16,11 +16,12 @@ function Navbar() {
 
                 <div className="collapse navbar-collapse" id="navbartoggler">
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             <Link
                                 to="/"
                                 className={
-                                    window.location.pathname === "/" || window.location.pathname === "/about"
+                                    // window.location.pathname === "/" || 
+                                    window.location.pathname === "/about"
                                         ? "nav-link active"
                                         : "nav-link"
                                 }>
@@ -44,7 +45,37 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
+                    <div className="icon-bar">
+                    <a href="https://www.linkedin.com/in/ritayypang/" target="blank" className="btn btn-ritaprofile stretched-link" id="linkedin"><i className="fa fa-linkedin fa_custom fa-2x"></i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1Rq8UkzMdDsikn2C3PIL4oPhJ0u671T-f/view?usp=sharing"
+                        target="blank" className="btn btn-ritaprofile" id="resume"><i
+                            className="fa fa-file-pdf-o fa_custom fa-2x"></i></a>
+                    <a href="https://github.com/sevenspell" target="blank" className="btn btn-ritaprofile" id="github"><i
+                        className="fa fa-github fa_custom fa-2x"></i>
+                    </a>
                 </div>
+                </div>
+
+
+
+
+                {/* <div>
+                    <a href="https://www.linkedin.com/in/ritayypang/" target="blank"
+                        className="btn btn-ritaprofile stretched-link" id="linkedin"><i className="fa fa-linkedin fa_custom fa-2x"></i>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="https://drive.google.com/file/d/1Rq8UkzMdDsikn2C3PIL4oPhJ0u671T-f/view?usp=sharing"
+                        target="blank" className="btn btn-ritaprofile stretched-link" id="resume"><i
+                            className="fa fa-file-pdf-o fa_custom fa-2x"></i></a>
+                </div>
+                <div>
+                    <a href="https://github.com/sevenspell" target="blank" className="btn btn-ritaprofile stretched-link" id="github"><i
+                        className="fa fa-github fa_custom fa-2x"></i>
+                    </a>
+                </div> */}
             </nav>
         </div>
     )
