@@ -12,12 +12,42 @@
 
     #detailslink {
       font-family: 'Over the Rainbow', cursive; 
-      font-size: 14px;
-      padding: 10px 20px 30px 20px;
+      font-size: 15px;
+      font-weight: bold;
+      padding: 10px 10px 25px 10px;
       background-color: rgb(165,42,42, 0.6);
       text-align: center;
 
   }
+
+  /* #linkedin{
+    position: relative;
+    bottom: 0%;
+    right: 0%;
+    margin: 10px;
+    width: 40px;
+    height: auto;
+    }
+
+    #resume{
+    position: relative;
+    bottom: 0%;
+    right: 0%;
+    margin: 10px 0px 10px 10px;
+    width: 40px;
+    height: auto;
+
+    }
+
+    #github{
+    position: relative;
+    bottom: 0%;
+    right: 0%;
+    margin: 10px;
+    width: 40px;
+    height: auto;
+
+    } */
 }
 
 @media only screen and (max-width: 414px) {
@@ -34,6 +64,7 @@
   #detailslink {
     font-family: 'Over the Rainbow', cursive; 
     font-size: 10px;
+    font-weight: bold;
     padding: 10px 20px 20px 20px;
     background-color: rgb(165,42,42, 0.6);
     text-align: center;

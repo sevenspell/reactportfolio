@@ -9,6 +9,11 @@
     border-radius: 5px;
     position: absolute;
     top: 0%;
+    margin-bottom: 0px;
+}
+
+#pebbstext{
+    margin-bottom: 0px;
 }
 }
 
@@ -24,12 +29,12 @@
         border-radius: 5px;
         position: absolute;
         top: 0%;
-        margin-bottom: 150px;
+        margin-bottom: 20px;
         margin-top: 0%;
     }
 
     #pebbstext{
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
 
     #introtext{
