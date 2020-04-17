@@ -30,7 +30,7 @@
     {
       "id": 5,
       "title": "The Burger Shop",
-      "image": "../../images/burgerimg2.bmp",
+      "image": "../../images/burgerimg2.png",
       "caption": "Hungry? Visit our burger shop and order your favourite burgers!",
       "url": "https://lit-everglades-39619.herokuapp.com/"
     },

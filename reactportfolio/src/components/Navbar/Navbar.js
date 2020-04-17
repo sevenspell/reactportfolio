@@ -48,12 +48,12 @@ function Navbar() {
                     <div className="icon-bar">
                         <a href="https://www.linkedin.com/in/ritayypang/" target="blank" className="btn btn-ritaprofile stretched-link" id="linkedin"><i className="fa fa-linkedin fa_custom fa-2x"></i>
                         </a>
-                        <a href="https://drive.google.com/file/d/1Rq8UkzMdDsikn2C3PIL4oPhJ0u671T-f/view?usp=sharing"
-                            target="blank" className="btn btn-ritaprofile" id="resume"><i
-                                className="fa fa-file-pdf-o fa_custom fa-2x"></i></a>
                         <a href="https://github.com/sevenspell" target="blank" className="btn btn-ritaprofile" id="github"><i
                             className="fa fa-github fa_custom fa-2x"></i>
                         </a>
+                        <a href="https://drive.google.com/file/d/1MwjXpCBmOlQOKK_SzYsqR1rp5cBezwc9/view?usp=sharing"
+                            target="blank" className="btn btn-ritaprofile" id="resume"><i
+                                className="fa fa-file-pdf-o fa_custom fa-2x"></i></a>
                     </div>
                 </div>
             </nav>

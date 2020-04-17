@@ -38,6 +38,15 @@ function Contact() {
                     </div>
                 </div>
             </div>
+            <div className="form-group">
+             &nbsp;
+            </div>
+            <div className="form-group">
+            &nbsp;
+            </div>
+            <div className="form-group">
+            &nbsp;
+            </div>
         </div>
     )
 }
